@@ -1,0 +1,31 @@
+.NavbarBar {
+  background-color: #0f172a;
+  padding: 10px;
+}
+
+.NavbarBrand {
+  font-size: 16px;
+}
+
+.NavbarBrand@media (min-width: 1024px) {
+  font-size: 24px;
+}
+
+.RouterLink {
+  text-decoration: none;
+  padding-right: 10px;
+  color: #f8fafc;
+  cursor: pointer;
+}
+
+.RouterLink[issamepath='true'] {
+  color: #3b82f6;
+}
+
+.NavbarToggle:focus {
+  outline: none;
+}
+
+.NavbarToggle:focus {
+  box-shadow: none;
+}

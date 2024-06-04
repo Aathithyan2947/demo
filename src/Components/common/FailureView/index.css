@@ -1,0 +1,33 @@
+/* FailureView.css */
+
+.FailureViewContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.FailureViewLogo {
+  width: 296px;
+  height: 145px;
+  margin: 10px;
+}
+
+.FailureText {
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  width: 300px;
+}
+
+.TryAgainButton {
+  background-color: #3b82f6;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

@@ -1,0 +1,59 @@
+/* styledComponents.css */
+
+.RepositoryItemPageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  height: 100%;
+  background-color: #0f172a;
+}
+
+.RepositoryCardContainer {
+  border-radius: 8px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  text-decoration: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.06);
+
+  @media screen and (min-width: 1024px) {
+    width: 920px;
+    padding: 20px;
+  }
+  @media screen and (min-width: 2048px) {
+    height: 100%;
+    width: 1140px;
+  }
+}
+
+.RepoPath {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f172a;
+}
+
+.LinkTo {
+  text-decoration: none;
+  outline: none;
+  font-weight: bold;
+  color: #7e858e;
+  font-size: 16px;
+}
+
+.LinkTo:hover,
+.LinkTo:focus,
+.LinkTo:visited,
+.LinkTo:link,
+.LinkTo:active {
+  color: #3b82f6;
+}
+
+.NextIcon {
+  color: #7e858e;
+  margin: 10px 0;
+}

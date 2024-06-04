@@ -1,0 +1,18 @@
+/* styledComponents.css */
+
+.LanguageText {
+  margin: 0;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .LanguageText {
+    margin-right: 15px;
+    margin-bottom: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+  }
+}

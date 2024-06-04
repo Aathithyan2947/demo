@@ -1,0 +1,72 @@
+/* ProfilePage.css */
+
+.ProfilePageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f172a;
+  padding: 10px;
+  height: 100%;
+}
+
+.UserAvatar {
+  border: 2px solid #e2e2e2;
+  border-radius: 161px;
+  width: 80px;
+  margin: 10px;
+}
+
+.UserProfileName {
+  font-weight: bold;
+  font-size: 24px;
+  color: #f8fafc;
+  margin: 10px;
+}
+
+.UserName {
+  font-weight: bold;
+  font-size: 16px;
+  color: #f8fafc;
+}
+
+.UserBio {
+  font-size: 14px;
+  color: #f8fafc;
+  text-align: center;
+}
+
+.UserInfoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.InfoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.InfoData {
+  font-size: 16px;
+  color: #3b82f6;
+  text-align: center;
+}
+
+.InfoAbout {
+  font-size: 12px;
+  color: #f8fafc;
+  text-align: center;
+}
+
+.Divider {
+  height: 75px;
+  border: 1px solid #64748b;
+}

@@ -1,0 +1,84 @@
+.RepositoriesPageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f172a;
+  width: 100%;
+  min-height: 93vh;
+  padding: 20px;
+}
+
+.Heading {
+  font-weight: bold;
+  font-size: 24px;
+  align-self: center;
+  color: #f8fafc;
+}
+
+.DataNotFoundViewContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f172a;
+  min-height: 100vh;
+}
+
+.DataNotFoundViewLogo {
+  width: 296px;
+  height: 166px;
+  margin: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  .DataNotFoundViewLogo {
+    width: 677px;
+    height: 380px;
+  }
+}
+
+.NoDataHeading {
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .NoDataHeading {
+    font-size: 32px;
+  }
+}
+
+.RepositoryCardContainer {
+  border-radius: 8px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  text-decoration: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.06);
+  width: 312px;
+}
+
+.RepositoryCardContainer:focus,
+.RepositoryCardContainer:hover,
+.RepositoryCardContainer:visited,
+.RepositoryCardContainer:link,
+.RepositoryCardContainer:active {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .RepositoryCardContainer {
+    width: 920px;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 2048px) {
+  .RepositoryCardContainer {
+    height: 100%;
+    width: 1140px;
+  }
+}

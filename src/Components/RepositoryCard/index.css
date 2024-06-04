@@ -1,0 +1,60 @@
+/* RepositoryCard.css */
+
+.RepositoryTitle {
+  font-weight: bold;
+  font-size: 18px;
+  color: #3b82f6;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.RepositoryDescription {
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.RepositoryLanguages {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #3b82f6;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.RepositoryInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.RepositoryInfoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.RepositoryInfoCount {
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.RepositoryInfoIcon {
+  margin-right: 10px;
+}
+
+.LookUPImg {
+  height: 21px;
+  width: 21px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}

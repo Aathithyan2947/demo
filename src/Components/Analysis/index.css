@@ -1,0 +1,14 @@
+.AnalysisPageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f172a;
+  padding: 20px;
+  width: 100%;
+  min-height: 93vh;
+}
+
+@media screen and (min-width: 768px) {
+  height: 100%;
+}
